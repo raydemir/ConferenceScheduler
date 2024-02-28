@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "caf53975-18a5-4429-81ad-a41f2c677d2a",
+		"name": "conferencescheduler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18832665",
+		"_collection_link": "https://chromai.postman.co/workspace/Personal~10f1c1c4-b2d5-48cb-90d1-fc6d458b9f29/collection/18832665-caf53975-18a5-4429-81ad-a41f2c677d2a?action=share&source=collection_link&creator=18832665"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/schedule",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  \"re-conference workshops (Additional registration fees apply) 30min\",\r\n  \"Pre-conference meetings 45min\",\r\n  \"AIEA Neal Presidential Fellows/Mentors Reception 45min\",\r\n  \"Morning pre-conference Workshops (Additional registration fees apply) 150min\",\r\n  \"Morning AIEA Committee Meetings 120min\",\r\n  \"Senior SIO event (invite only) 15min\",\r\n  \"Newcomers Briefing lightning\",\r\n  \"Opening Reception 10min\",\r\n  \"Morning Presidential Plenary 140min\",\r\n  \"Morning and Afternoon Concurrent Sessions 65min\",\r\n  \"Awards Luncheon 135min\",\r\n  \"Evening Network Reception 25min\",\r\n  \"AIEA Association Breakfast 25min\",\r\n  \"Morning Concurrent Sessions 35min\",\r\n  \"Plenary Luncheon 40min\",\r\n  \"Writing Fast Tests Against Enterprise Rails 60min\",\r\n  \"Overdoing it in Python 45min\",\r\n  \"Lua for the Masses 30min\",\r\n  \"Ruby Errors from Mismatched Gem Versions 45min\",\r\n  \"Common Ruby Errors 45min\",\r\n  \"Rails for Python Developers lightning\",\r\n  \"Communicating Over Distance 60min\",\r\n  \"Accounting-Driven Development 45min\",\r\n  \"Woah 30min\",\r\n  \"Sit Down and Write 30min\",\r\n  \"Pair Programming vs Noise 45min\",\r\n  \"Rails Magic 60min\",\r\n  \"Ruby on Rails: Why We Should Move On 60min\",\r\n  \"Clojure Ate Scala (on my project) 45min\",\r\n  \"Programming in the Boondocks of Seattle 30min\",\r\n  \"Ruby vs. Clojure for Back-End Development 30min\",\r\n  \"Ruby on Rails Legacy App Maintenance 60min\",\r\n  \"A World Without HackerNews 30min\",\r\n  \"User Interface CSS in Rails Apps 30min\"\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/schedule",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"schedule"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
